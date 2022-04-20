@@ -1,3 +1,38 @@
 .row {
     padding: 20px;
 }
+div{
+    background-color: aqua;
+    text-align: center;
+}
+
+/* Foto de perfil usuario*/
+
+@media(min-width: 575px){
+    #profile{
+     position: absolute;
+     width: 150px;
+     border-radius: 100%;
+     box-shadow: 3px 3px 3px purple;
+     left: 2%;
+     top: 1065px;    
+    } 
+} 
+
+@media(max-width: 576px){
+    #profile{
+       position: absolute;
+       width: 30%;
+       border-radius: 100%;
+       box-shadow: 3px 3px 3px purple;
+       left: 33%;
+       top: 1065px;    
+    }   
+}  
+
+/*Tag de nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30px;
+
+}
