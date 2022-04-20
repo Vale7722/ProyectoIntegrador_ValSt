@@ -8,28 +8,29 @@ div{
 
 /* Foto de perfil usuario*/
 
+
 @media(min-width: 575px){
-    #profile{
-     position: absolute;
-     width: 150px;
-     border-radius: 100%;
+    #profile{   
+     position: center;
+     width: 300px;
+     border-radius: 50%;
      box-shadow: 3px 3px 3px purple;
      left: 2%;
      top: 1065px;    
+    
     } 
 } 
 
 @media(max-width: 576px){
     #profile{
-       position: absolute;
-       width: 30%;
+       position: center;
+       width: 50%;
        border-radius: 100%;
        box-shadow: 3px 3px 3px purple;
        left: 33%;
        top: 1065px;    
     }   
-}  
-
+}    
 /*Tag de nombre*/
 #nombre{
     font-weight: bold;
