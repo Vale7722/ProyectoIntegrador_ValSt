@@ -94,9 +94,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "ProyectoIntegrador_ValSt/node_modules/bootstrap/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": ["ProyectoIntegrador_ValSt/node_modules/bootstrap/js/bootstrap.js"]
           }
         }
       }
