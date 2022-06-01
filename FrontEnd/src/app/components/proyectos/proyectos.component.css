@@ -1,0 +1,16 @@
+.row{
+    padding: 20px;
+    background-color: green;
+}
+.container {
+    width: auto;
+}
+
+.parte1,parte2{
+     display: inline-block;
+     text-align: justify;    
+}
+.imag-proytecto{
+   box-shadow: 15px 100px 15px rgba(108, 238, 21, 0.473);
+   box-shadow: ejeX ejeY difumasioon color;
+}
